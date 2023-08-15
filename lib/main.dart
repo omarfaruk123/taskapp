@@ -4,6 +4,7 @@ import 'package:task/screen/onboarding/loginScreen.dart';
 import 'package:task/screen/onboarding/pinVerificationScreen.dart';
 import 'package:task/screen/onboarding/registrationScreen.dart';
 import 'package:task/screen/onboarding/setPasswordScreen.dart';
+import 'package:task/screen/task/createTaskScreen.dart';
 import 'package:task/screen/task/homeScreen.dart';
 import 'package:task/utility/utility.dart';
 
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget{
         '/registration':(context)=> registrationScreen(),
         '/emailVerification':(context)=> emailVerificationScreen(),
         '/pinVerification':(context)=> pinVerificationScreen(),
-        '/setPassword':(context)=> setPasswordScreen()
+        '/setPassword':(context)=> setPasswordScreen(),
+        '/taskCreate':(context)=> createTaskScreen(),
       },
     );
   }
